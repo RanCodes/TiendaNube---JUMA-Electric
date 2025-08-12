@@ -1,5 +1,5 @@
 {% set description_content = product.description is not empty or settings.show_product_fb_comment_box %}
-<div class="w-md-60 mt-4 mb-2" data-store="product-description-{{ product.id }}">
+<div class="w-md-60 mt-1 mb-2" data-store="product-description-{{ product.id }}">
 
 	{# Product description #}
 
